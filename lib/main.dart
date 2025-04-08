@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:screens/Wstatus.dart';
 import 'package:screens/login%20screen.dart';
 
 void main() {
@@ -11,7 +12,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Loginscreen());
+    return MaterialApp(home: Loginscreen()
+        //home:Signup()
+        //home:Facebook()
+        //home:Wweb()
+        //home:WStatus()
+        );
   }
 }
 
